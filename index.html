@@ -3,27 +3,48 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
 
     <link rel="stylesheet" href="css/ .css" media="screen">
     <link rel="stylesheet" href="js/github-light.css">
 
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/headsmart.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" >
+    (function() {
+      $('#fullpage').fullpage();
+    })();
+    </script>
 
     <title>Lesnoy by kirgincev</title>
   </head>
 
   <body>
-    <div class="body">
-      <div class="head">
 
-        <div>
-
-        </div>
-
+    <div id="fullpage">
+      <div class="section one">
+        <h1>
+          Here's a great
+        </h1>
+        <h2>
+          tagline to read
+        </h2>
+      </div>
+      <div class="section two">
+        <h1>
+          Oh look, another phrase
+        </h1>
+        <h2>
+          to stand out
+        </h2>
+      </div>
+      <div class="section three">
+        <h1>
+          Finally, this is the
+        </h1>
+        <h2>
+          last slide
+        </h2>
       </div>
     </div>
+
   </body>
 </html>
