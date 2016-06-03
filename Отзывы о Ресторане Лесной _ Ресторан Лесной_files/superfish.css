@@ -1,0 +1,28 @@
+/*----------------------- */
+#navbg ul  { text-align:center;  }
+#navbg ul, #navbg ul * { margin:0; padding:0;  list-style:none; line-height:46px; }
+#navbg ul li ul { position:absolute; top:-999em; width:150px;   /* left offset of submenus need to match (see below) */ }
+#navbg ul li ul li { width:100%; }
+#navbg ul li:hover { visibility:inherit; /* fixes IE7 'sticky bug' */ }
+#navbg ul li { display:inline;  position:relative;  /*z-index:980; */ }
+#navbg ul a { position:relative; /* z-index:980; */}
+
+#navbg ul li ul a { display:block; position:relative; /* z-index:980;*/ line-height:13px; }
+
+#navbg ul li:hover ul, #navbg ul li.sfHover ul { left:0; top:0; /* match top ul list item height */ /* z-index:999; */ }
+#navbg ul li:hover li ul, #navbg ul li.sfHover li ul { top:-999em; }
+#navbg ul li li:hover ul, #navbg ul li li.sfHover ul {left:150px; /* match ul width */ top:0; }
+#navbg ul li li:hover li ul, #navbg ul li li.sfHover li ul { top:-999em; }
+#navbg ul li li li:hover ul, #navbg ul li li li.sfHover ul { left:150px; /* match ul width */ top:0; }
+/*** DEMO SKIN ***/
+
+
+#navbg ul li a {  padding:15px 20px 24px 20px; margin-left:0px; text-decoration:none; font-size:14px; text-transform:uppercase; }
+#navbg ul li li a, #navbg ul li li li a, #navbg ul li li li li a, #navbg ul li li li li li a { padding:8px 12px; font-size:13px; text-align:left; text-transform:capitalize; }
+#navbg ul a.sf-with-ul { padding-right: 	25px;	min-width:1px; /* trigger IE7 hasLayout so spans position accurately */}
+#navbg ul li li a, #navbg ul li li li a, #navbg ul li li li li a, #navbg ul li li li li li a { margin-left:0; }
+#navbg ul li:hover ul, #navbg ul li.sfHover ul  { left:-15px; top:2.5em; /* match top ul list item height */ z-index:99; }
+ul#navbg ul li li:hover ul, ul#navbg ul li li.sfHover ul {left:150px; /* match ul width */ top:2.5em; }
+
+
+#navbg ul li:hover ul, x:-moz-any-link, x:default {top:2.6em} {mozilla firefox 3 or greater}

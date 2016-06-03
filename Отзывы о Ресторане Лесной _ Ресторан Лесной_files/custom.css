@@ -1,0 +1,102 @@
+/*
+File:			custom.css
+Description:	Custom styles for Your Theme
+
+HOW TO USE THIS FILE:
+
+Override any class you want and it will change default styling to suit your needs.
+
+For example, if you wish to change the default text blog title to grey, you would add the 
+following declarations to this file:
+
+	#header .blog-title a{ background:#cccccc }     <--- This makes blog title background grey
+
+*/
+
+
+
+
+
+
+h3{ padding:10px 5px 15px 15px;}	 
+
+.sidebartext{margin:15px;}
+
+#accordion {width:650px; margin:0px auto}
+.accordion {width:650px;   font-family:Georgia, "Times New Roman", Times, serif; font-size:18px; color:#EAFFFF}
+.accordion dt {width:650px;  padding:16px; font-weight:bold; margin-top:5px; cursor:pointer; background:#5fbc8f right no-repeat; background-image:url(http://lesnoy-crimea.com/wp-content/themes/Foodilicious/foodilicious/images/hide.png); left:20px;}
+.accordion dt:hover {background:#20462c right no-repeat;background-image:url(http://lesnoy-crimea.com/wp-content/themes/Foodilicious/foodilicious/images/hide.png);color:#5fbc8f;}
+.accordion dd {width:682px;overflow:hidden;}
+.accordion span {display:block; width:650px; border-top:none; padding:15px 0px 15px 30px;}
+td {padding:5px; font-size:16px; text-shadow: 1px 1px 2px black, 0 0 1em green;}
+
+
+#footer p.i_contact {text-align:center;
+		padding:5px;}
+.designby{text-align:right;
+		margin-bottom:5px;
+		padding:10px;}
+.copy{text-align:left;
+		padding:0px 5px 5px 5px;
+		margin-top:10px;}
+
+#testimonials {
+position: relative;
+margin: 0 15px 5px 20px;
+min-height: 120px;
+}
+
+.bottom_in{color:#B5E5B1;}
+.textwidget{color:#032D1A;}
+.text{text-indent:25px; line-height:18px;}
+
+
+	
+.coda-slider-wrapper { padding: 0px 0;position:relative; top:-10px; left:40px;}
+.coda-slider, .coda-slider .panel { width: 360px } 
+.coda-slider .panel-wrapper p{ padding: 0px;  font-size: 100%; text-align:left;}
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+.coda-slider-wrapper { clear: both; overflow: auto }
+.coda-slider { float: left; overflow: hidden; position: relative }
+.coda-slider .panel { display: block; float: left }
+.coda-slider .panel-container { position: relative }
+.coda-nav-left, .coda-nav-right { float: left }
+.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+
+.callnow{
+  color:#0a6813;
+  text-shadow: 0 0 1px #da2f0e; /* horizontal-offset vertical-offset 'blur' colour */
+   -moz-text-shadow: 0 0 1px #da2f0e;
+   -webkit-text-shadow: 0 0 1px #da2f0e;
+  font-size:18px;
+  font-weight:500; 
+}
+
+.content span{
+  color:#032D1A;
+  text-indent:25px;
+  line-height:18px;
+  font-size:16px;}
+
+#banner .content{
+  width:570px;
+  position:relative;
+  padding: 20px;
+}
+.bottom_in {
+height:200px;
+}
+.video{
+  width:660px;
+  margin:0 auto}
+
+.callnow{
+  width:225px;
+  height:55px;}
+
+.newyear{
+position: relative;
+top:-20px;
+}
